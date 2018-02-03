@@ -1,0 +1,17 @@
+/*
+ * datatype_code.h
+ *
+ *  Created on: Oct 28, 2016
+ *      Author: levap
+ */
+
+#ifndef PARABOX_DEVBOARD_PROTOCOL_DATATYPE_CODE_H_
+#define PARABOX_DEVBOARD_PROTOCOL_DATATYPE_CODE_H_
+
+#define DATATYPE_NUMBER			1
+#define DATATYPE_STRING			2
+#define DATATYPE_VOID			3
+#define DATATYPE_BYTE_ARRAY		4
+#define DATATYPE_ERROR			0xFF
+
+#endif /* PARABOX_DEVBOARD_PROTOCOL_DATATYPE_CODE_H_ */

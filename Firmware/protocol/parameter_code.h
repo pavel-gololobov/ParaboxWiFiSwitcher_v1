@@ -1,0 +1,37 @@
+/*
+ * parameter_code.h
+ *
+ *  Created on: Oct 28, 2016
+ *      Author: levap
+ */
+
+#ifndef PARABOX_DEVBOARD_PROTOCOL_PARAMETER_CODE_H_
+#define PARABOX_DEVBOARD_PROTOCOL_PARAMETER_CODE_H_
+
+#define PARAM_INPUT				1
+#define PARAM_OUTPUT			2
+#define PARAM_VERSION			3
+#define PARAM_RSSI				4
+#define PARAM_UPTIME			5
+#define PARAM_ADC				6
+#define PARAM_TEMP				7
+#define PARAM_RESTART			8
+#define PARAM_SERIAL1_WRITE		9
+#define PARAM_SERIAL2_WRITE		10
+#define PARAM_SERIAL1_READ		11
+#define PARAM_SERIAL2_READ		12
+#define PARAM_LED				13
+#define PARAM_FW_UPDATE_START	14
+#define PARAM_FW_UPDATE_DATA	15
+#define PARAM_FW_UPDATE_END		16
+#define PARAM_CO2_CONCENTRATION	17
+#define PARAM_TEMPERATURE		18
+#define PARAM_HUMIDITY			19
+#define PARAM_VOLTAGE			20
+#define PARAM_INPUTS			21
+#define PARAM_TEMPERATURES		22
+#define PARAM_ADCS				23
+
+#define PARAM_START_BOOTLOADER		99
+
+#endif /* PARABOX_DEVBOARD_PROTOCOL_PARAMETER_CODE_H_ */
